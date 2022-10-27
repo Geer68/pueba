@@ -1,0 +1,155 @@
+.header {
+    background-color: rgba(51,62,154,0.7);
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    justify-content: space-between;
+}
+.headerLogo {
+    justify-content: flex-start;
+}
+.logo {
+    height: 200px;
+    width: 200px;
+    padding-left: 10px;
+    opacity: 0,90;
+}
+
+.navItem {
+    justify-content: flex-end;
+    right: 0px;
+    padding-right: 25px;
+}
+.item {
+    display: inline;
+    margin-left: 25px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.imgBox {
+    display: flex;
+    flex-direction: column;
+}
+.startImage {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.formulario {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.formImg {
+    height: 70px;
+    width: 70px;
+
+}
+.trabajando {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.introNosotros {
+ margin-top: 10px;
+}
+.titleNosotros {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(51,62,154);
+    font-size: 50px;
+}
+.subNosotros {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(51,62,154);
+    font-size: 30px;
+}
+
+.pNosotros {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0);
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footerStyle {
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.footerList {
+    display: flex;
+    right: 0px;
+}
+
+.listFoot{
+    list-style: none;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footItem {
+    color: rgb(174, 180, 180);
+}
+.boxDerechos {
+    display: flex;
+    align-items:center;
+    padding-left: 500px;
+}
+form {
+    margin: auto;
+    flex-flow: column wrap;
+    border: 2px rgb(44, 44, 44) solid ;
+    background-color: rgb(200, 214, 243,0.3);
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    justify-content: space-around;
+    display: flex;
+}
+.h2Form {
+    text-align: center;
+    color:rgb(51,62,154) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainFormulario {
+    background-image: url(img/en\ proceso.jpg);
+    margin: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formContainer {
+    background-color: rgb(219, 241, 249);
+    height: 50px; /*ALTO*/
+    width: 300px; /*ANCHO*/
+    border: 1px rgb(200, 214, 243,0.3) solid;
+    /*margin: auto;*/
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0);
+    margin-right: 10px;
+}
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0);
+}
